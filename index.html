@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div id="logo"></div>
+            <div id="errors-indications"><p><span id="errors">7</span><span> erros restantes</span></p></div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hang-up-man">
+            <img src="./img/hang-up/0.svg" id="hang-up-image">
+        </section>
+        <div id="user-interaction">
+            <section id="letters"></section>
+            <section id="keyboard">
+                <p class="keyboard">q</p>
+                <p class="keyboard">w</p>
+                <p class="keyboard">e</p>
+                <p class="keyboard">r</p>
+                <p class="keyboard">t</p>
+                <p class="keyboard">y</p>
+                <p class="keyboard">u</p>
+                <p class="keyboard">i</p>
+                <p class="keyboard">o</p>
+                <p class="keyboard">p</p>
+                <p class="keyboard">a</p>
+                <p class="keyboard">s</p>
+                <p class="keyboard">d</p>
+                <p class="keyboard">f</p>
+                <p class="keyboard">g</p>
+                <p class="keyboard">h</p>
+                <p class="keyboard">j</p>
+                <p class="keyboard">k</p>
+                <p class="keyboard">l</p>
+                <p class="keyboard">ç</p>
+                <p class="keyboard">z</p>
+                <p class="keyboard">x</p>
+                <p class="keyboard">c</p>
+                <p class="keyboard">v</p>
+                <p class="keyboard">b</p>
+                <p class="keyboard">n</p>
+                <p class="keyboard">m</p>
+            </section>
+        </div>
+    </main>
+    <script src="./js/array.js"></script>
+    <script src="./js/createBricks.js"></script>
+    <script src="./js/compareValues.js"></script>
+    <script src="./js/setHiddenWord.js"></script>
+    <script src="./js/attemptsDecrease.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/reset.js"></script>
+    <script src="./js/winGame.js"></script>
+</body>
+</html>
