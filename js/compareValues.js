@@ -14,9 +14,9 @@ function compareValues(guess, target) {
         target.classList.add("disabled-right");
 
     } else {
-        attemptsDecrease();
         target.className = "";
         target.classList.add("disabled-error");
+        attemptsDecrease();
     }
 
 }

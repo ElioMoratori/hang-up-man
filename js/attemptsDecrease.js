@@ -5,6 +5,7 @@ function attemptsDecrease() {
         imgSource.setAttribute("src", "./img/hang-up/" + remainingAttempts + ".svg");
         remainingAttempts--;
     } else {
-        alert("Você perdeu! Vamos a uma nova partida!", reset());
+        reset();
+        alert("Você perdeu! Vamos a uma nova partida!");
     }
 }
