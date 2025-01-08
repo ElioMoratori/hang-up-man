@@ -1,5 +1,3 @@
-// Refatoração do código: criar nova palavra.
-
 let hiddenWord;
 function setHiddenWord() {
     let wordPosition = parseInt(Math.random() * words.length + 1);

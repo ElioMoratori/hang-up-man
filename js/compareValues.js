@@ -13,6 +13,8 @@ function compareValues(guess, target) {
         target.className = "";
         target.classList.add("disabled-right");
 
+        
+
     } else {
         target.className = "";
         target.classList.add("disabled-error");

@@ -16,7 +16,9 @@ keyboard.addEventListener("click", function(e){
     if (alvo.textContent.length !== 1 || alvo.classList.contains("disabled-error") || alvo.classList.contains("disabled-right")) {
     } else {
         compareValues(palpite, alvo);
-    }
-})
+    } 
 
+    setTimeout(()=> {winGame();}, 500);
+
+})
 
