@@ -57,6 +57,11 @@ nav {
     color: var(--bg-color);
 }
 
+#tip {
+    align-items: center;
+    align-content: center;
+}
+
 #errors-indications {
     width: 550px;
     display: flex;
