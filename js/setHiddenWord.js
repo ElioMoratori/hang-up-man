@@ -13,9 +13,7 @@ let hiddenTip = document.getElementById("tip-text");
 
 function setHiddenWord() {
     let position = parseInt(Math.random() * 6);
-    console.log(position);
     let nameList = categoriesName[position];
-    console.log(nameList)
     switch(nameList) {
         case "meiosDeTransporte": 
             hiddenWord = meiosDeTransporte[parseInt(Math.random() * meiosDeTransporte.length)];
@@ -36,7 +34,6 @@ function setHiddenWord() {
             hiddenWord = objetos[parseInt(Math.random() * objetos.length)];
             break;
     }
-    console.log(hiddenWord);
     createBricks(hiddenWord);
     charList = hiddenWord.toLowerCase().toLowerCase().split("");
     hiddenTip.textContent = tips[position];

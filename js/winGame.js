@@ -11,8 +11,7 @@ function winGame() {
    })
    
    if (!splitNodes.includes("_")) {
-        alert("Você venceu!");
-        alert("Próxima palavra");
+        alert("Você venceu! Vamos para a próxima palavra");
         reset();
    }
 }
